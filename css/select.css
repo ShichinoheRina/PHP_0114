@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+}
+
+.mmm{
+    display: flex;
+}
+
+header{
+ height: 50px;
+
+}
+
+
+.kyo{
+    font-size: 23px;
+    padding-left: 12px;
+}
+
+/* headerの中 */
+
+.btnwrap{
+    display: flex;
+    justify-content: end;
+    padding-top: 5px;
+    
+}
+
+.lbtn{
+    padding: 5px 10px;
+    margin-right: 15px;
+    background-color: #40e0d0;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.tbtn{
+    padding: 5px 10px;
+    margin-right: 20px;
+    background-color: #40e0d0;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.f-container{
+    text-align: left;
+    border-bottom: solid 1px #cacaca;
+}
+
+.f-item{
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right:15px;
+}
+
+main{
+    flex: 1;
+}
+
+.left{
+    width:200px;
+    
+}
+
+aside{
+    width:250px;
+    background-color: whitesmoke;
+}
+
+.cart-list{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+       
+       
+}
+
+
+.products-item{
+    flex-basis:33.3%;
+	box-sizing:border-box;
+	/* border:solid 1px #cacaca; */
+	list-style: none;
+	text-align: center;
+    padding-left: 12px;
+} 
+
+
+/* 箱の中身 */
+
+.cart-thumb{
+    text-align: left;
+}
+
+.title{
+    text-align: left;
+    font-size: 18px;
+}
+
+.content{
+    text-align: left;
+}
+
+.uname{
+    text-align: left;
+    font-size: 14px;
+}
+
+
+/* 左側 */
+
+.l-t {
+    font-size: 17px;
+    margin-left: 20px;
+    color: #08131AA8;
+}
+
+
+.left > h3 {
+    font-size: 15px;
+    margin-left: 20px;
+    color: #08131AA8;
+    font-weight: normal;
+    font-weight: 300;
+}
+
+.krs{
+    display: flex;
+}
